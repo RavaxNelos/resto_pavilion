@@ -12871,8 +12871,8 @@ textarea.form-control {
 
 /* pop up */
 
-.popup {
-  display: none;
+.recipe-popup {
+  display: none; /* Default: tersembunyi */
   position: fixed;
   top: 30px;
   left: 0;
@@ -12884,26 +12884,56 @@ textarea.form-control {
 }
 
 .popup-content {
-  background: white;
+  background: #241c1c;
   padding: 20px;
   border-radius: 10px;
+  max-width: 400px; /* Batas ukuran agar tidak terlalu lebar */
+  width: 90%; /* Agar responsif di layar HP */
   text-align: center;
-  width: 50%;
-  width: 350px;
-  position: relative;
-  
+  position: relative; /* Untuk elemen dalamnya */
 }
 
-.popup-img {
+.popup-image {
   width: 100%;
   height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
-#close-popup {
+.popup-title {
+  color: 	#e6e8eb;
+  font-weight: 700;
+}
+
+#close-popup1 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#close-popup2 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#close-popup3 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#close-popup4 {
   margin-top: 10px;
   padding: 10px 20px;
   background: red;
