@@ -12941,6 +12941,30 @@ textarea.form-control {
   border: none;
   cursor: pointer;
 }
+#close-popup5 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#close-popup6 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#close-popup7 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
 
 /* cart-pop-up */

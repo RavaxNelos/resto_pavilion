@@ -15,6 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("show-tart").addEventListener("click", function () {
         document.getElementById("popup-tart").style.display = "flex";
     });
+    document.getElementById("show-galaxy").addEventListener("click", function () {
+        document.getElementById("popup-galaxy").style.display = "flex";
+    });
+    document.getElementById("show-strawberry").addEventListener("click", function () {
+        document.getElementById("popup-strawberry").style.display = "flex";
+    });
+    document.getElementById("show-soda").addEventListener("click", function () {
+        document.getElementById("popup-soda").style.display = "flex";
+    });
 
     // Menutup pop-up ketika tombol "Tutup" ditekan
     document.getElementById("close-popup1").addEventListener("click", function () {
@@ -31,5 +40,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("close-popup4").addEventListener("click", function () {
         document.getElementById("popup-tart").style.display = "none";
+    });
+    document.getElementById("close-popup5").addEventListener("click", function () {
+        document.getElementById("popup-galaxy").style.display = "none";
+    });
+    document.getElementById("close-popup6").addEventListener("click", function () {
+        document.getElementById("popup-strawberry").style.display = "none";
+    });
+    document.getElementById("close-popup7").addEventListener("click", function () {
+        document.getElementById("popup-soda").style.display = "none";
     });
 });
