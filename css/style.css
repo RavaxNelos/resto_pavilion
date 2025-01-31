@@ -12872,7 +12872,8 @@ textarea.form-control {
 /* pop up */
 
 .recipe-popup {
-  display: none; /* Default: tersembunyi */
+  display: none;
+  /* Default: tersembunyi */
   position: fixed;
   top: 30px;
   left: 0;
@@ -12887,10 +12888,13 @@ textarea.form-control {
   background: #121618;
   padding: 20px;
   border-radius: 10px;
-  max-width: 400px; /* Batas ukuran agar tidak terlalu lebar */
-  width: 90%; /* Agar responsif di layar HP */
+  max-width: 400px;
+  /* Batas ukuran agar tidak terlalu lebar */
+  width: 90%;
+  /* Agar responsif di layar HP */
   text-align: center;
-  position: relative; /* Untuk elemen dalamnya */
+  position: relative;
+  /* Untuk elemen dalamnya */
 }
 
 .popup-image {
@@ -12905,7 +12909,7 @@ textarea.form-control {
 }
 
 .popup-title {
-  color: 	#e6e8eb;
+  color: #e6e8eb;
   font-weight: 700;
 }
 
@@ -12917,6 +12921,7 @@ textarea.form-control {
   border: none;
   cursor: pointer;
 }
+
 #close-popup2 {
   margin-top: 10px;
   padding: 10px 20px;
@@ -12925,6 +12930,7 @@ textarea.form-control {
   border: none;
   cursor: pointer;
 }
+
 #close-popup3 {
   margin-top: 10px;
   padding: 10px 20px;
@@ -12933,6 +12939,7 @@ textarea.form-control {
   border: none;
   cursor: pointer;
 }
+
 #close-popup4 {
   margin-top: 10px;
   padding: 10px 20px;
@@ -12941,6 +12948,7 @@ textarea.form-control {
   border: none;
   cursor: pointer;
 }
+
 #close-popup5 {
   margin-top: 10px;
   padding: 10px 20px;
@@ -12949,6 +12957,7 @@ textarea.form-control {
   border: none;
   cursor: pointer;
 }
+
 #close-popup6 {
   margin-top: 10px;
   padding: 10px 20px;
@@ -12957,6 +12966,7 @@ textarea.form-control {
   border: none;
   cursor: pointer;
 }
+
 #close-popup7 {
   margin-top: 10px;
   padding: 10px 20px;
